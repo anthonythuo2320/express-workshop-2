@@ -11,7 +11,6 @@ app.set('view engine', 'handlebars');
 // i.e /my-cv will server /my-cv.html
 app.use(express.static("public", { 'extensions': ['html'] }));
 
-
 /*app.get('/', function (req, res) {
   res.render('index', {
     title: 'Anthony Profile',
